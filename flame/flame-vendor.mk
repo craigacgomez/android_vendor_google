@@ -673,6 +673,33 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/dsp/sdsp/smartbatching.so:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/smartbatching.so \
     vendor/google/flame/proprietary/vendor/dsp/sdsp/uv_exposure.napp_header:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/uv_exposure.napp_header \
     vendor/google/flame/proprietary/vendor/dsp/sdsp/uv_exposure.so:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/uv_exposure.so \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Bluetooth_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Codec_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_General_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Global_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Handset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Hdmi_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Headset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_Speaker_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/CDP/CDP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/CDP/CDP_workspaceFile.qwsp \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Codec_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/google/flame/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/google/flame/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
     vendor/google/flame/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/google/flame/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -847,6 +874,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/vintf/manifest/manifest_input.classifier-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_input.classifier-service.xml \
     vendor/google/flame/proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_wifi_ext.xml \
     vendor/google/flame/proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-citadel.xml \
+    vendor/google/flame/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/google/flame/proprietary/vendor/etc/bluetooth_power_limits.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits.csv \
     vendor/google/flame/proprietary/vendor/etc/default_c2proto.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_c2proto.mps \
     vendor/google/flame/proprietary/vendor/etc/default_coral.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_coral.mps \
@@ -1963,6 +1991,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/5_version_google_feature.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_google_feature.sql \
+    vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/6_singapore_ecc_995.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_singapore_ecc_995.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/7_remove_germany_hard_ecc_110.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_remove_germany_hard_ecc_110.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/8_USCC_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_USCC_update_ecc_table.sql \
