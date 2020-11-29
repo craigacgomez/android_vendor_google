@@ -1174,6 +1174,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.primary.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.lito.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/memtrack.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.redfin.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.redfin.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sound_trigger.primary.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.lito.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
@@ -1709,6 +1713,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/com.qti.chi.override.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.bitra.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/lights.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/memtrack.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.lito.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/sensors.redfin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.redfin.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/sound_trigger.primary.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.lito.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \

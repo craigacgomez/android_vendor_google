@@ -589,6 +589,10 @@ vendor/lib/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/hw/gralloc.lito.so
+vendor/lib/hw/lights.lito.so
+vendor/lib/hw/memtrack.lito.so
+vendor/lib/hw/sensors.redfin.so
+vendor/lib/hw/sound_trigger.primary.lito.so
 vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -1128,6 +1132,10 @@ vendor/lib64/hw/camera.lito.so
 vendor/lib64/hw/com.qti.chi.override.bitra.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/gralloc.lito.so
+vendor/lib64/hw/lights.lito.so
+vendor/lib64/hw/memtrack.lito.so
+vendor/lib64/hw/sensors.redfin.so
+vendor/lib64/hw/sound_trigger.primary.lito.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
