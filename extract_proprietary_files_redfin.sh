@@ -66,3 +66,8 @@ do
 done
 
 echo -e "\e[1mFixing invalid/malformed files from stock image\e[0m"
+fix_xml_invalid_version_number "$PWD/redfin/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml"
+fix_xml_version_header_location "$PWD/redfin/proprietary/vendor/etc/data/dsi_config.xml"
+fix_xml_version_header_location "$PWD/redfin/proprietary/vendor/etc/data/netmgr_config.xml"
+fix_json_comments "$PWD//redfin/proprietary/vendor/etc/ssg/ta_config.json"
+fix_json_comments "$PWD//redfin/proprietary/vendor/etc/ssg/tz_whitelist.json"
