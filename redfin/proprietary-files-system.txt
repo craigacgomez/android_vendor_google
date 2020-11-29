@@ -1,0 +1,2 @@
+system/etc/permissions/privapp-permissions-google.xml
+product/etc/security/fsverity/play_store_fsi_cert.der
